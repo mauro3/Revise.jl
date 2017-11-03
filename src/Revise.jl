@@ -2,6 +2,7 @@ __precompile__(true)
 
 module Revise
 
+using FileWatching
 using DataStructures: OrderedSet
 
 export revise
